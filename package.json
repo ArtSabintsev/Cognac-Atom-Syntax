@@ -1,0 +1,15 @@
+{
+  "name": "Cognac",
+  "theme": "syntax",
+  "version": "1.0.0",
+  "description": "An Alluring, Dark, and Muted Syntax Theme For Atom.",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/artsabintsev/cognac-atom-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
