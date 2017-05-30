@@ -60,5 +60,5 @@
     "url": "git+https://github.com/artsabintsev/cognac-atom-syntax.git"
   },
   "theme": "syntax",
-  "version": "1.0.2"
+  "version": "1.0.3"
 }
