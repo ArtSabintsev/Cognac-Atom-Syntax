@@ -1,3 +1,4 @@
+@import "colors";
 @import "syntax-variables";
 
 atom-text-editor {
@@ -44,93 +45,93 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .syntax--comment {
-  color: #999999;
+  color: @gray;
 }
 
 .syntax--string {
-  color: #DFDFDF;
+  color: @light-gray;
 }
 
 .syntax--constant.syntax--numeric {
-  color: #DFDFDF;
+  color: @light-gray;
 }
 
 .syntax--constant.syntax--language {
-  color: #FF9595;
+  color: @red;
 }
 
 .syntax--constant.syntax--character, .syntax--constant.syntax--other {
-  color: #FF9595;
+  color: @red;
 }
 
 .syntax--variable {
-  color: #8AEC8A;
+  color: @green;
 }
 
 .syntax--keyword {
   font-weight: bold;
-  color: #FF80C6;
+  color: @pink;
 }
 
 .syntax--storage {
   font-weight: bold;
-  color: #FF80C6;
+  color: @pink;
 }
 
 .syntax--storage.syntax--type {
   font-weight: bold;
-  color: #FF80C6;
+  color: @pink;
 }
 
 .syntax--entity.syntax--name.syntax--class {
-  color: #C18AFF;
+  color: @purple;
 }
 
 .syntax--entity.syntax--other.syntax--inherited-class {
-  color: #C18AFF;
+  color: @purple;
 }
 
 .syntax--entity.syntax--name.syntax--function {
-  color: #87D5FF;
+  color: @blue;
 }
 
 .syntax--variable.syntax--parameter {
-  color: #87D5FF;
+  color: @blue;
 }
 
 .syntax--entity.syntax--name.syntax--tag {
   font-weight: bold;
-  color: #FF80C6;
+  color: @pink;
 }
 
 .syntax--entity.syntax--other.syntax--attribute-name {
-  color: #FFF680;
+  color: @yellow;
 }
 
 .syntax--support.syntax--function {
-  color: #87D5FF;
+  color: @blue;
 }
 
 .syntax--support.syntax--constant {
-  color: #FF9595;
+  color: @red;
 }
 
 .syntax--support.syntax--type, .syntax--support.syntax--class {
-  color: #C18AFF;
+  color: @purple;
 }
 
 .syntax--support.syntax--other.syntax--variable {
-  color: #8AEC8A;
+  color: @green;
 }
 
 .syntax--invalid {
   font-weight: bold;
-  color: #FF80C6;
-  background-color: #FFFFFF;
+  color: @pink;
+  background-color: @white;
 }
 
 .syntax--invalid.syntax--deprecated {
   font-weight: bold;
-  color: #FF9595;
-  background-color: #FFFFFF;
+  color: @pink;
+  background-color: @white;
 }
